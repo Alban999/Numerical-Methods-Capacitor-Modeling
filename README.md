@@ -1,6 +1,6 @@
 # Numerical-Methods-Capacitor-Modelisation
 
-We consider the problem of determining the electrostatic potential in a capacitor. The capacitor considered has the shape of a rectangular parallelepiped (shape of a box) whose section by the plane $z=z_0$ for every $z_0\, \int\, [0,Lz]$ is represented below. In this diagram, the envelope of the capacitor (colored in shades of blue) corresponds to a set of four supposedly perfect and mutually insulated conductors, while the heart of the capacitor (in yellow) is filled with a dielectric of permittivity $\epsilon$.
+We consider the problem of determining the electrostatic potential in a capacitor (see [full problem description](https://drive.google.com/file/d/18JmfOlAcNcHh2eUGnd9uDdwVZUDL5qJp/view?usp=drive_link)). The capacitor considered has the shape of a rectangular parallelepiped (shape of a box) whose section by the plane $z=z_0$ for every $z_0\, \int\, [0,Lz]$ is represented below. In this diagram, the envelope of the capacitor (colored in shades of blue) corresponds to a set of four supposedly perfect and mutually insulated conductors, while the heart of the capacitor (in yellow) is filled with a dielectric of permittivity $\epsilon$.
 
 <img width="809" alt="Capacitor_1" src="https://github.com/Alban999/Numerical-Methods-Capacitor-Modelisation/assets/74149424/b89083fa-788a-475b-9606-3fff6f5d4024">
 
