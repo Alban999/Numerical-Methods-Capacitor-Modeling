@@ -47,3 +47,7 @@ $$Au = b$$
 
 that we solve to determine the approximation $u$ of the electric potential.
 
+# Setup
+1. Download the [SuiteSparse folder](https://drive.google.com/drive/folders/1HHX_DNTazZ0lP1-6nn0E2tay8dcrOCWp?usp=drive_link) and put it in the Numerical-Methods-Capacitor-Model-Multigrid folder.
+2. run the main.c file
+
