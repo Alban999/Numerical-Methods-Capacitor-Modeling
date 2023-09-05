@@ -1,0 +1,11 @@
+reset
+set terminal qt size 800, 600
+set xlabel "my"
+set ylabel "residu (x1e-16)"
+
+
+set tics out
+set grid
+set size ratio -1
+
+

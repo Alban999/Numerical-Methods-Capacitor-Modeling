@@ -1,0 +1,23 @@
+reset
+set terminal qt size 800, 600 
+set object rectangle from screen 0,0 to screen 1,1 behind fillcolor rgb 'gray' fillstyle solid noborder
+set xlabel "x (mm)"
+set ylabel "y (mm)"
+
+set tics out
+set grid
+set title "Etude du champE dans un condensateur"
+set size ratio -1
+
+unset key
+
+c = 1000 
+n = 0.0015
+
+#La palette de couleur dépend de la taille du vecteur, ce qui permet d’accentuer la différence entre ceux-ci \
+et de mieux comprendre la lecture du graphique  
+
+set pm3d map
+set palette model RGB rgbformulae 7,5,15 
+set cbrange[0:400]
+colorbox
