@@ -1,0 +1,14 @@
+reset
+set terminal qt size 800, 600
+set xlabel "x (m)"
+set ylabel "y (m)"
+set cblabel "Potentiel (V)"
+set tics out
+set grid
+set size ratio -1
+
+unset key
+
+set palette defined ( 0 "green", 1 "blue", 2 "red", 3 "orange" )
+
+set title "Etude du potentiel dans un condensateur"
