@@ -2,7 +2,7 @@
 
 We consider the problem of determining the electrostatic potential in a capacitor. The capacitor considered has the shape of a rectangular parallelepiped (shape of a box) whose section by the plane $z=z_0$ for every $z_0\, \int\, [0,Lz]$ is represented below. In this diagram, the envelope of the capacitor (colored in shades of blue) corresponds to a set of four supposedly perfect and mutually insulated conductors, while the heart of the capacitor (in yellow) is filled with a dielectric of permittivity $\epsilon$.
 
-![Uploading Capacitor_1.png…]()
+<img width="809" alt="Capacitor_1" src="https://github.com/Alban999/Numerical-Methods-Capacitor-Modelisation/assets/74149424/b89083fa-788a-475b-9606-3fff6f5d4024">
 
 The mathematical modeling of the problem can be done in two dimensions. This is due to the geometry of the capacitor, which is translationally invariant in the direction $z$, but also because we assume, here and in the sequel, that the length $L_z$ of the capacitor is sufficiently large so that the dependence of the electric potential on the variable $z$ can be neglected. The problem is then formulated as follows: determine the electric potential $u(x, y)$ for everything $(x, y)\, \int\, \Omega$ such that
 
