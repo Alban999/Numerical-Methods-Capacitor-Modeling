@@ -2,7 +2,7 @@
 
 We consider the problem of determining the electrostatic potential in a capacitor. The capacitor considered has the shape of a rectangular parallelepiped (shape of a box) whose section by the plane $z=z_0$ for every $z_0\, \int\, [0,Lz]$ is represented below. In this diagram, the envelope of the capacitor (colored in shades of blue) corresponds to a set of four supposedly perfect and mutually insulated conductors, while the heart of the capacitor (in yellow) is filled with a dielectric of permittivity $\epsilon$.
 
-![schema](https://github.com/Alban999/Numerical-Methods-Capacitor-Modelisation/tree/main/Images/Capacitor_1)
+![Uploading Capacitor_1.png…]()
 
 The mathematical modeling of the problem can be done in two dimensions. This is due to the geometry of the capacitor, which is translationally invariant in the direction $z$, but also because we assume, here and in the sequel, that the length $L_z$ of the capacitor is sufficiently large so that the dependence of the electric potential on the variable $z$ can be neglected. The problem is then formulated as follows: determine the electric potential $u(x, y)$ for everything $(x, y)\, \int\, \Omega$ such that
 
@@ -29,7 +29,7 @@ $(x_i, y_j) = (ih, jh)$, $i,j=1,...,m-2$
 
 Where m is the number of grid points aligned in one direction, and $h=\frac{L}{m-1}$ is the discretization step. These points uniformly cover the interior of the square domain, but not the edge of it, where the potential is known.
 
-![discretization](https://drive.google.com/file/d/1_GRdZhQuAOfLUsO87Z3kMcj0VNCh35Eo/view?usp=drive_link)
+<img width="563" alt="Capacitor_2" src="https://github.com/Alban999/Numerical-Methods-Capacitor-Modelisation/assets/74149424/689fbb14-33ab-4502-a658-fe58d3bf5c7f">
 
 To each point of the grid we associate an approximation $u_{i,j}$ electric potential at the point $(x_i, y_j)$ . For each point, we also establish in what follows a linear equation in the variables $u_{i,j}$ ; all of these equations form a linear system. To obtain these equations we use in particular the centered difference formula for the second derivative which, for a function $u$ in function of the variable $x$, corresponds to
 
