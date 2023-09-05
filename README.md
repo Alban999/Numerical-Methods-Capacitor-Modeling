@@ -10,7 +10,7 @@ $$
 \begin{equation}
     \begin{cases}
       -\frac{d^2 u}{dx^2} -\frac{d^2 u}{dy^2} = \frac{\rho}{\epsilon} \; \text{on}\; \Omega\, \int \, 	\mathbb{R}^2\\
-      \text{boundary conditions}\; \text{on}\; \delta \Omega
+      \text{boundary}\; \text{conditions}\; \text{on}\; \delta \Omega
     \end{cases}
 \end{equation}
 $$
