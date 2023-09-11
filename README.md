@@ -4,12 +4,12 @@ We consider the problem of determining the electrostatic potential in a capacito
 
 <img width="809" alt="Capacitor_1" src="https://github.com/Alban999/Numerical-Methods-Capacitor-Modelisation/assets/74149424/b89083fa-788a-475b-9606-3fff6f5d4024">
 
-The mathematical modeling of the problem can be done in two dimensions. This is due to the geometry of the capacitor, which is translationally invariant in the direction $z$, but also because we assume, here and in the sequel, that the length $L_z$ of the capacitor is sufficiently large so that the dependence of the electric potential on the variable $z$ can be neglected. The problem is then formulated as follows: determine the electric potential $u(x, y)$ for everything $(x, y)\, \int\, \Omega$ such that
+The mathematical modeling of the problem can be done in two dimensions. This is due to the geometry of the capacitor, which is translationally invariant in the direction $z$, but also because we assume, here and in the sequel, that the length $L_z$ of the capacitor is sufficiently large so that the dependence of the electric potential on the variable $z$ can be neglected. The problem is then formulated as follows: determine the electric potential $u(x, y)$ for everything $(x, y) \in \Omega$ such that
 
 $$
 \begin{equation}
     \begin{cases}
-      -\frac{d^2 u}{dx^2} -\frac{d^2 u}{dy^2} = \frac{\rho}{\epsilon} \ \text{on}\ \Omega\ \int \ 	\mathbb{R}^2\\
+      -\frac{d^2 u}{dx^2} -\frac{d^2 u}{dy^2} = \frac{\rho}{\epsilon} \ \text{on}\ \Omega \in \mathbb{R}^2\\
       \text{boundary}\ \text{conditions}\ \text{on}\ \delta \Omega
     \end{cases}
 \end{equation}
